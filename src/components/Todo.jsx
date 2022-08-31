@@ -24,7 +24,7 @@ function Todo({todos, completeTodo, removeTodo, updateTodo}) {
     }
 
     return todos.map((todo, index) => (
-        <div className={todo.isComplete ? 'todo-row complete' : 'todo-row'} >
+        <div className={todo.isComplete ? 'todo-row complete' : 'todo-row'} key={todo.id + Math.floor(Math.random() * 100000)}>
             <div key={todo.id} onClick={() => completeTodo(todo.id)} className="todo-text">
                 {todo.text}
             </div>
