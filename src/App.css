@@ -29,6 +29,15 @@ body, html{
     font-size: 2vw;
     width: 100%;
 }
+.delete-icon{
+    float: left;
+    width: 15%;
+    height: 50%;
+}
+.edit-icon{
+    width: 15%;
+    height: 50%;
+}
 .icons{
     height: 100%;
     display: flex;
@@ -51,7 +60,47 @@ body, html{
     justify-content: center;
     text-align: center;
 }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter-form{
+    margin: 2vw;
+    z-index: 5;
+    width: 50%;
+    background: #247BA0;
+    height: 4vw;
+    border-radius: 2vw;
+}
+.input-form{
+    margin-left: 2vw;
+    float: left;
+    font-size: 1.4vw;
+    color: white;
+    z-index: 5;
+    height: 100%;
+    width: 65%;
+    border: none;
+    border-radius: 1vw;
+    background: none;
+    outline-width: 0;
+}
+.add-button{
+    font-size: 1.2vw;
+    color: white;
+    z-index: 0;
+    
+    position: absolute;
+    width: 7vw;
+    height: 4vw;
+    background: #1B98E0;
+    border: none;
+    border-radius: 1vw;
+}
 .form{
+    display: flex;
+    justify-content: center;
     padding: 2vw;
     width: 10vw;
     display: block;
